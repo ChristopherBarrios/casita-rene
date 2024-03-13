@@ -1,0 +1,277 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+}
+#layout{
+    margin: auto;
+    display: block;;
+    width: 800px;
+    height: 400px;
+    background: rgb(81, 207, 252);
+    border: 3px solid black;
+}
+#nube1{
+    width: 200px;
+    height: 50px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    border-radius: 100%;
+    background: white;
+    z-index: 1;
+}
+#nube11{
+    width: 80px;
+    height: 60px;
+    position: relative;
+    top: -5px;
+    left: 0px;
+    border-radius: 100%;
+    background: white;
+    z-index: 1;
+}
+
+#nube12{
+    width: 120px;
+    height: 80px;
+    position: absolute;
+    top: -15px;
+    left: 40px;
+    border-radius: 100%;
+    background: white;
+    z-index: 1;
+}
+#nube13{
+    width: 80px;
+    height: 60px;
+    position: absolute;
+    top: -5px;
+    left: 120px;
+    border-radius: 100%;
+    background: white;
+    z-index: 1;
+}
+
+#nube2{
+    width: 200px;
+    height: 50px;
+    position: relative;
+    top: 0px;
+    left: 350px;
+    border-radius: 100%;
+    background: white;
+    z-index: 1;
+}
+#nube21{
+    width: 80px;
+    height: 60px;
+    position: relative;
+    top: -5px;
+    left: 0px;
+    border-radius: 100%;
+    background: white;
+    z-index: 1;
+}
+
+#nube22{
+    width: 120px;
+    height: 80px;
+    position: absolute;
+    top: -15px;
+    left: 40px;
+    border-radius: 100%;
+    background: white;
+    z-index: 1;
+}
+#nube23{
+    width: 80px;
+    height: 60px;
+    position: absolute;
+    top: -5px;
+    left: 120px;
+    border-radius: 100%;
+    background: white;
+    z-index: 1;
+}
+
+
+#arbol1{
+    display: block;
+    width: 50px;
+    height: 90px;
+    position: relative;
+    top: 180px;
+    left: 110px;
+    background: rgb(148, 56, 3);
+    position: relative;
+    
+
+}
+
+#hojas1{
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: -80px;
+    left: -20px;
+    border-radius: 100%;
+    background: greenyellow;
+    
+
+}
+#arbol2{
+    display: block;
+    width: 50px;
+    height: 90px;
+    position: relative;
+    top: 85px;
+    left: 650px;
+    background: rgb(148, 56, 3);
+    position: relative;
+    
+
+}
+
+#hojas2{
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: -80px;
+    left: -20px;
+    border-radius: 100%;
+    background: greenyellow;
+    
+
+}
+
+#pared {
+    display: block;
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    top: 218px;
+    left: 540px;
+    background:red;
+
+}
+
+#puerta {
+    display: block;
+    width: 60px;
+    height: 90px;
+    position: absolute;
+    top: 278px;
+    left: 580px;
+    background: chocolate;
+
+}
+
+#ventana {
+    display: block;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 278px;
+    left: 730px;
+    background: blue;
+
+}
+
+#techo {
+    display: block;
+    width: 330px;
+    height: 20px;
+    position: absolute;
+    top: 218px;
+    left: 525px;
+    background: orange;
+
+}
+
+#sol1{
+    width: 120px;
+        height: 120px;
+        position: absolute;
+        top: 20px;
+        left: 900px;
+        border-radius: 100%;
+        background: yellow;
+    
+}
+
+#cabeza{
+    width: 30px;
+        height: 30px;
+        position: absolute;
+        top: 280px;
+        left: 500px;
+        border-radius: 100%;
+        background: black;
+
+}
+
+#cuerpo{
+    display: block;
+    width: 8px;
+    height: 40px;
+    background: black;
+    position: absolute;
+    top: 308px;
+    left: 510px;
+}
+#brazo1{
+    display: block;
+    width: 7px;
+    height: 35px;
+    background: black;
+    position: absolute;
+    top: 300px;
+    left: 500px;
+    transform: rotate(60deg);
+}
+
+#pierna1{
+    display: block;
+    width: 7px;
+    height: 45px;
+    background: black;
+    position: absolute;
+    top: 335px;
+    left: 500px;
+    transform: rotate(35deg);
+}
+
+#brazo2{
+    display: block;
+    width: 7px;
+    height: 35px;
+    background: black;
+    position: absolute;
+    top: 300px;
+    left: 520px;
+    transform: rotate(310deg);
+}
+#pierna2{
+    display: block;
+    width: 7px;
+    height: 45px;
+    background: black;
+    position: absolute;
+    top: 335px;
+    left: 525px;
+    transform: rotate(320deg);
+}
+
+
+#piso{
+    display: block;
+    width: 800px;
+    height: 30px;
+    background:green;
+    position: relative;
+    top:85px;
+}
